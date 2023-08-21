@@ -49,6 +49,10 @@ class Loteria:
     def recieveMoney(self):
         self.apostador.wallet -= self.value
 
+    @classmethod
+    def changeProbability(cls, nprobability):
+        cls.probability = nprobability
+
     def playGame(self):
         a = random.randint(0, 1)
         if (a < self.probability):
@@ -62,7 +66,8 @@ class Loteria:
             self.recieveMoney()
 
 
-if __name__ == " main ":
+if __name__ == "__main__":
+
     apostador1 = Apostador(1, "Juan", 302, "j@gmail.com")
     apostador1.deposit(500)
     print(apostador1.wallet)
@@ -70,7 +75,9 @@ if __name__ == " main ":
     print(apostador1.wallet)
 
     apostador2 = Apostador(2, "Ricardo", 548, "r@gmail.com")
-    apostador2.deposit(500)
+    apostador2.deposit(400)
     print(apostador2.wallet)
     apostador2.play(400)
     print(apostador2.wallet)
+
+
