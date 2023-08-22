@@ -12,6 +12,8 @@ Tener una clase grande que es la q corre todo el programa, la clase Game
 
 - Clase jugador, el cual hara las acciones y tiene atributos como inventario y mochila con un array de pokemones
 - Clase pokemon, q tiene varios metodos  y hace varias cosas
+-- Dependiendo de cierta probabilidad y el nivel de vida se podra atrapar un pokemon --
+
 
 - Dentro de cada pokemon y jugador se inicializa una clase de animaciones, puede mostrar el nombre, texto y algunsa visuales
 
