@@ -1,4 +1,4 @@
-# Talleres OOP
+## Talleres: Object-oriented programming
 
 Recopilacion actividades y talleres desarrollados en la materia de Programacion Orientada a Objetos.
 
